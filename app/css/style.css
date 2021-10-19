@@ -3,44 +3,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
-@media (min-width: 600px) {
-    .container-1{
-        display: flex;
-        align-items: stretch;
-        flex-direction: row;
-    }
+body{
+    margin: 0;
 }
-.conteiner-2{
+.Header{
+    background-image: url(../img/city.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    align-items: stretch;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.Header *{
+    color: white;
+    font-family: "Myriad Pro";
+}
+.nav{
+    width: 70%;
+    height: 70px;
+    border-bottom: 1px solid #8795a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome{
+    height: 200px;
+    width: 100%;
+}
+.left_nav{
+    display: flex;
+    width: 50%;
     justify-content: space-between;
 }
-.container-1, .conteiner-2 div {
-    padding: 10px;
-    border: 1px solid silver;
-}
-.box-1 {
-    margin: 5px;
-    flex: 2;
-    order: 1;
-    background-color: silver;
+.right_nav{
+    display: flex;
+    align-items: center;
 }
 
-.box-2 {
-    background-color: cornflowerblue;
-    margin: 5px;
-    flex: 3;
-    order: 3;
+.telef{
+    width: 13px;
+    height: 13px;
+    margin-right: 7px;
 }
-
-.box-3 {
-    background-color: cornsilk;
-    margin: 5px;
-    flex: 1;
-    order: 2;
+.text{
+    margin-top: 10%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-.box{
-    flex-basis: 20%     ;
+.Fusion_Travel{
+    font-size: 60px;
+}
+.lets{
+    align-items: center;
 }
