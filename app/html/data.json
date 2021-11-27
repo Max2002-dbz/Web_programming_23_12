@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Maksym Kuk",
+    "location": "Gorpyn, Ukraine",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad at autem\nconsequuntur debitis deleniti dolore ea earum fugiat harum illo illum ipsa iure\nlabore maiores nam natus nemo numquam odit officia praesentium quam quidem quo\nreprehenderit tempore velit, vero!",
+    "img": "../img/messi.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Bobik",
+    "location": "Zhowtantsi, Ukraine",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad at autem\nconsequuntur debitis deleniti dolore ea earum fugiat harum illo illum ipsa iure\nlabore maiores nam natus nemo numquam odit officia praesentium quam quidem quo\nreprehenderit tempore velit, vero!",
+    "img": "../img/bobik.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Andriy Matsevko",
+    "location": "Ass of world",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad at autem\nconsequuntur debitis deleniti dolore ea earum fugiat harum illo illum ipsa iure\nlabore maiores nam natus nemo numquam odit officia praesentium quam quidem quo\nreprehenderit tempore velit, vero!",
+    "img": "../img/matsevko.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Andriy Matsevko",
+    "location": "Ass of world",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad at autem\nconsequuntur debitis deleniti dolore ea earum fugiat harum illo illum ipsa iure\nlabore maiores nam natus nemo numquam odit officia praesentium quam quidem quo\nreprehenderit tempore velit, vero!",
+    "img": "../img/matsevko.jpg"
+  }
+]
