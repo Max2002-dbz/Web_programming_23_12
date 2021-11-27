@@ -1,48 +1,223 @@
+@media (max-width: 1400px) {
+    .big_block_text {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .news_content {
+        row-gap: 60px;
+        flex-direction: column;
+    }
+
+    .news_right {
+        width: 100%;
+    }
+
+    .big_block_text {
+        padding: 20px 50px;
+    }
+}
+
 @media (max-width: 1100px) {
-	.nav{
-		width: 90%;
-	}
+    .nav {
+        width: 90%;
+    }
 }
+
+@media (max-width: 1000px) {
+    .clients_content > img {
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .dest_blocks .container {
+        justify-content: center;
+    }
+
+    .big_block_text {
+        padding: 10px 20px;
+    }
+
+    .clients_block {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+}
+
 @media (max-width: 700px) {
-	.right_nav{
-		display: none;
-	}
-	.left_nav{
-		width: 100%;
-		justify-content: space-between;
-		column-gap: 0;
-	}
+    .right_nav {
+        display: none;
+    }
+
+    .left_nav {
+        width: 100%;
+        justify-content: space-between;
+        column-gap: 0;
+    }
 }
-@media (max-width: 420px) {
-	.left_nav{
-		display: none;
-	}
-	.nav{
-		justify-content: flex-end;
-	}
-	.burger{
-		display: flex;
-	}
-	.Fusion_Travel{
-		font-size: 40px;
-	}
-	.lets{
-		font-size: 14px;
-	}
-	.WelcomeToFusion{
-		font-size: 30px;
-	}
-	.slider_pointer{
-		display: none;
-	}
-}
+
 @media (max-width: 620px) {
-	.icon{
-		display: flex;
-		justify-content: center;
-	}
-	.s1{
-		display: flex;
-		justify-content: center;
-	}
+    .icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .s1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575px) {
+    .news_right {
+        flex-direction: column;
+        row-gap: 60px;
+        align-items: center;
+    }
+
+    .new_right_left,
+    .new_right_right {
+        width: 300px;
+    }
+
+    .new_right_right {
+        flex-direction: column-reverse;
+    }
+
+    .n_big_block {
+        flex-grow: 0;
+        height: 400px;
+    }
+
+    .news_left_bottom {
+        width: 300px;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .news_left {
+        align-items: center;
+    }
+
+    .nlb_text,
+    .nlb_img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .latest_news {
+        height: 2540px;
+    }
+
+    .latest_news .plan {
+        margin-top: 720px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .footer_block {
+        width: 120px;
+    }
+}
+
+@media (max-width: 420px) {
+    .left_nav {
+        display: none;
+    }
+
+    .nav {
+        justify-content: flex-end;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .Fusion_Travel {
+        font-size: 40px;
+    }
+
+    .lets {
+        font-size: 14px;
+    }
+
+    .WelcomeToFusion {
+        font-size: 30px;
+    }
+
+    .slider_pointer {
+        display: none;
+    }
+
+    .slider:hover {
+        transform: none;
+        box-shadow: 0 0 20px rgba(252, 233, 170, 0.4);
+    }
+
+    .slider {
+        position: relative;
+        width: 290px;
+        height: 220px;
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .sliders {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .block_title {
+        font-size: 30px;
+    }
+
+    .block_subtitle {
+        font-size: 14px;
+    }
+
+    .destination {
+        width: 300px;
+        height: 320px;
+    }
+
+    .title {
+        margin: 20px 0;
+        height: fit-content;
+    }
+
+    .slider_content {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .clients_block {
+        padding: 30px 8px;
+    }
+
+    .discount .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .discount_text {
+        text-align: center;
+    }
 }
